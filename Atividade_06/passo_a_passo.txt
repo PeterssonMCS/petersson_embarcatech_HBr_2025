@@ -1,0 +1,5 @@
+No inicio não compilou por não achar a biblioteca do lwip
+> Identificado que a biblioteca não estava sendo incluida no projeto, necessitando escolher a opção na criação do mesmo
+Logo após a compilou, mas não conectou a nenhum wifi
+Várias tentativas foram feitas com diversos nomes e senhas, bem como diversos wifis
+
