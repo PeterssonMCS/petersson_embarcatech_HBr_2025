@@ -37,6 +37,12 @@
     "raspberry-pi-pico.cmakePath": "${HOME}/.pico-sdk/cmake/v3.31.5/bin/cmake",
     "raspberry-pi-pico.ninjaPath": "${HOME}/.pico-sdk/ninja/v1.12.1/ninja",
     "files.associations": {
-        "wifi_conn.h": "c"
+        "wifi_conn.h": "c",
+        "mqtt.h": "c",
+        "mqtt_comm.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "cyw43_arch.h": "c",
+        "lwipopts.h": "c"
     }
 }

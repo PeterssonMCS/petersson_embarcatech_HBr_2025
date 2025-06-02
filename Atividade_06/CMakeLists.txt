@@ -36,7 +36,8 @@ pico_sdk_init()
 # Add executable. Default name is the project name, version 0.1
 
 add_executable(Atividade_06 Atividade_06.c 
-                        include/wifi_conn.c)
+                        include/wifi_conn.c
+                        include/mqtt_comm.c)
 
 pico_set_program_name(Atividade_06 "Atividade_06")
 pico_set_program_version(Atividade_06 "0.1")
@@ -57,6 +58,7 @@ target_include_directories(Atividade_06 PRIVATE
 # Add any user requested libraries
 target_link_libraries(Atividade_06 
         pico_cyw43_arch_lwip_poll
+        pico_lwip_mqtt 
         )
 
 pico_add_extra_outputs(Atividade_06)
